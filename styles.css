@@ -4,8 +4,15 @@ body{
 .toppage{
     z-index:5;
     position:fixed;
-    background:black;
+    background: black;
     margin:-1%;
+
+}
+#titleimage{
+    margin-top:-10px;
+    margin-bottom:-10px;
+    margin-left:-10px;
+    margin-right:-10px;
 }
 .header{
     position:fixed;
@@ -68,16 +75,33 @@ input{
     border-bottom:.1px solid gray;
 }
 #navbutton{
+    font-style:initial;
     height:10%;
+    border-style:inherit;
     background-color:black;
     margin-top:-1%;
     margin-bottom:-1%;
-    border-color:gray;
-    border-left:1px solid gray;
+    border-color:rgb(149, 147, 147);
+    border-left:1px solid rgb(149, 147, 147);
+    color:rgb(149, 147, 147);
+    padding-block:15px;
+    padding-left:30px;
+    padding-right:30px;
+}
+#navbuttond{
+    font-style:initial;
+    height:10%;
+    border-style:inherit;
+    background-color:black;
+    margin-top:-1%;
+    margin-bottom:-1%;
+    border-color:rgb(149, 147, 147);
+    border-left:1px solid rgb(149, 147, 147);
+    border-right:1px solid rgb(149, 147, 147);
     color:darkgray;
     padding-block:15px;
-    padding-left:50px;
-    
+    padding-left:30px;
+    padding-right:30px;  
 }
 .topleft{
     z-index:5;
@@ -85,7 +109,7 @@ input{
 }
 h4{
     text-align:center;
-    color:lightgray;
+    color:rgb(149, 147, 147);
     font-family:Arial, Helvetica, sans-serif;
 }
 .body{
@@ -99,7 +123,6 @@ h4{
     width:1.5%;
     height:1.5%;
     padding-right:10px;
-    
 }
 #instaLogo{
     width:1.5%;
@@ -133,22 +156,20 @@ h4{
     margin:0px 5px 10px 10px;
 }
 #picbutton{
-    
     width:100px;
     height:30px;
     margin-right:auto;
-    background-color:blue;
+    background-color:darkblue;
     border:none;
     color:white;
     text-align:center;
     margin:0px 5px 10px 10px;
 }
 .center{
-    display:block;
     margin-left:auto;
     margin-right:auto;
     width:100%;
-    height:70%;
+    height:30%;
 }
 ul{
     position:absolute;
@@ -170,9 +191,18 @@ a:hover{
 #navbutton:hover{
     color:white;
 }
+#navbuttond:hover{
+    color:white;
+}
 #login:hover{
     color:white;
 }
 #signup:hover{
     color:white;
+}
+#leftscroll{
+    background:transparent;
+}
+#rightscroll{
+    background:transparent;
 }
